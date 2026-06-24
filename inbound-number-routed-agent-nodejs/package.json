@@ -1,0 +1,17 @@
+{
+  "name": "inbound-number-routed-agent-nodejs",
+  "version": "1.0.0",
+  "description": "Answer inbound Telnyx calls and start a runtime-configured AI Assistant by called number.",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --check server.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}

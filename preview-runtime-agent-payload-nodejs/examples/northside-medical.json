@@ -1,0 +1,8 @@
+{
+  "business_name": "northside medical",
+  "agent_role": "patient scheduling assistant",
+  "tone": "professional and reassuring",
+  "business_hours": "monday to saturday, 8 am to 6 pm",
+  "services": ["annual physical", "lab appointment", "follow-up visit"],
+  "first_message": "thank you for calling northside medical. i can help you find an appointment time."
+}

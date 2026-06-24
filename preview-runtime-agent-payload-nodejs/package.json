@@ -1,0 +1,13 @@
+{
+  "name": "preview-runtime-agent-payload-nodejs",
+  "version": "1.0.0",
+  "description": "Preview a runtime Telnyx AI Assistant payload from a business config.",
+  "main": "preview.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "preview": "node preview.js",
+    "test": "node --check preview.js"
+  }
+}
