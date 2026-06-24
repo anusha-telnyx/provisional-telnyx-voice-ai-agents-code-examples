@@ -2,12 +2,16 @@
   "name": "preview-runtime-agent-payload-nodejs",
   "version": "1.0.0",
   "description": "Preview a runtime Telnyx AI Assistant payload from a business config.",
-  "main": "preview.js",
+  "main": "server.js",
   "engines": {
     "node": ">=18"
   },
   "scripts": {
-    "preview": "node preview.js",
-    "test": "node --check preview.js"
+    "start": "node server.js",
+    "preview": "node server.js",
+    "test": "node --check server.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2"
   }
 }

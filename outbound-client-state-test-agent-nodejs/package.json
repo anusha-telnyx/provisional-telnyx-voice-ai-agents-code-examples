@@ -2,13 +2,14 @@
   "name": "outbound-client-state-test-agent-nodejs",
   "version": "1.0.0",
   "description": "Start an outbound Telnyx test call with client_state selecting a runtime business config.",
-  "main": "start-call.js",
+  "main": "server.js",
   "engines": {
     "node": ">=18"
   },
   "scripts": {
-    "call": "node start-call.js",
-    "test": "node --check start-call.js"
+    "start": "node server.js",
+    "call": "node server.js",
+    "test": "node --check server.js"
   },
   "dependencies": {
     "dotenv": "^17.4.2"
